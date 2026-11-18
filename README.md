@@ -11,20 +11,20 @@ reader to work out.
 
 ## What is actually in here
 
-### `UE5mix/PythonScripts/` — the part worth reading
+### `UE5mix/PythonScripts/`, the part worth reading
 Python that runs inside the Unreal Editor to generate materials, build vertex-colour blend
 graphs, and populate and save levels. This is real tooling and the strongest material in
 the repository. **See [its own README](UE5mix/PythonScripts/README.md)** for what each
 script does and which `unreal` APIs it drives.
 
-### `UE5mix/C++Blueprints/` — coursework
+### `UE5mix/C++Blueprints/`, coursework
 Standalone exercise classes from the Vertex School programme and related practice:
 `floatingActor`, `lightSwitch` and `lightSwitchBP`, `explodeBarrel`, `ProjectileDemo`, plus
 `ChatGPTAPIWrapper`, and the `DevFlow` project's template character and game mode. These
 are individual learning exercises, each demonstrating one engine concept. They are not
 parts of a game and do not combine into one.
 
-### `DemoTitle/Code/CharacterCode/ThirdPerson/Chale/` — a renamed template
+### `DemoTitle/Code/CharacterCode/ThirdPerson/Chale/`, a renamed template
 **This is Epic's stock third-person template with the class renamed, and nothing more.**
 `ChalesTributeCharacter.cpp` is 129 lines, carries Epic's own
 `// Copyright Epic Games, Inc. All Rights Reserved.` header, and defines exactly the
